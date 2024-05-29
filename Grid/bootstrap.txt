@@ -1,0 +1,15 @@
+Bootstrap:
+1.)
+class="small">Hello World</h1>
+<p class="text-lowercase">Hello world</p>
+<p class="text-primary">Hello world</p>
+
+2.)UL classes:
+<ul class="list-unstyled list-inline">
+	<li class="bg-warning">HTML</li>
+	<li>css</li>
+	<li>JS</li>
+</ul>
+
+3.)Image Responsive:
+<img src="images/01.jpg" class="img-fluid">

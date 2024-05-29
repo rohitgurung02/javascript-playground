@@ -1,0 +1,6 @@
+Grid:-
+display: grid;
+grid-gap: 15px;
+grid-template-columns: repeat(2, 1fr) 1fr;
+grid-template-rows: repeat(3, 150px);
+grid-template-columns: 1fr 2fr 3fr; for double of 1 or 2 then use this property.

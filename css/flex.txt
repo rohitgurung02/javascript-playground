@@ -1,0 +1,3 @@
+Flex-Properties:
+1) Flex-direction: column;
+2) Flex-wrap: wrap;

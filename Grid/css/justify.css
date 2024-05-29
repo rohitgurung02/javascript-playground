@@ -1,0 +1,42 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.container {
+    width: 1140px;
+    height: auto;
+    background: beige;
+    margin: 0 auto;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,150px);
+    grid-gap: 15px;
+}
+
+.box-1{
+	background: #FF5733;
+	color: #fff;
+}
+.box-2{
+	background: #FFBD33;
+	color: #fff;
+}
+.box-3{
+	background: #75FF33;
+	color: #fff;
+}
+.box-4{
+	background: #e28743;
+	color: #fff;
+}
+.box-5{
+	background: #5733FF;
+	color: #fff;
+}
+.box-6{
+	background: #FF5733;
+	color: #fff;
+}

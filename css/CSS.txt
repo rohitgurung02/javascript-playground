@@ -1,0 +1,26 @@
+CSS
+text-overflow: ellipsis;
+word-break: break-all;
+list-style:square;
+list-style:lower-roman;
+
+<!--break the word into a responsive paragraph or box-->
+1.) word-wrap: break-all;
+<!--break the word into a responsive paragraph or box-->
+
+<!--Grid-Responsive-->
+.container {
+    width: 90vw;
+    display: grid;
+    grid-gap: 12px;
+    grid-template-columns: repeat(4, minmax(250px, 1fr));
+    grid-template-rows: repeat(2, minmax(250px, 1fr));
+}
+@media(max-width: 1180px){
+	.container{
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+}
+
+<!--css-of-css-units-->
+1em = 12px;
+2em = 24px;

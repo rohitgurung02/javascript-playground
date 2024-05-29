@@ -1,0 +1,62 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*.box{
+	height: 100px;
+	width: 100px;
+	border: 2px solid red;
+	border-radius: 5px;
+	background-color: plum;
+	position: relative;
+	top: 10px;
+	left: 10px;
+
+	animation-name: circle;
+	animation-duration: 2s;
+	animation-timing-function: ease-in-out;
+	animation-delay: 1s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate-reverse;
+}*/
+
+/*@keyframes circle{
+	from{
+		left: 10px;
+	}
+
+	to{
+		left: 100px;
+	}
+}*/
+
+/*@keyframes circle{
+	0% {left: 10px; top: 0px};
+	60% {left: 150px; top: 100px};
+	100% {right: 200px; top: 0px};
+}*/
+
+/*--Progress-bar--*/
+.progress-container{
+	width: 75%;
+	height: 35px;
+	position: relative;
+	border-radius: 3px solid black;
+	background-color: gainsboro;
+	border-radius: 12px;
+	margin: 35px 23px;
+}
+
+.progress-bar {
+    background-color: mediumorchid;
+    height: 100%;
+    border-radius: 18px;
+    animation: animate_progress 3s 5;
+}
+
+@keyframes animate_progress{
+	from {width: 0%}
+	to {width: 100%}
+}
